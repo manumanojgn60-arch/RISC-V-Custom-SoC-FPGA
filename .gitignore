@@ -1,0 +1,58 @@
+
+---
+
+# Common `.gitignore`
+
+Use the same `.gitignore` in **all four repositories**:
+
+```gitignore
+# Vivado
+.vivado/
+*.jou
+*.log
+*.str
+*.xpr
+*.runs/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/
+*.Xil/
+
+# Generated FPGA files
+*.bit
+*.bin
+*.ltx
+*.dcp
+
+# Icarus Verilog
+*.vvp
+*.vcd
+*.fst
+
+# GTKWave
+*.gtkw
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Build directories
+build/
+dist/
+out/
